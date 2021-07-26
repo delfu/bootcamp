@@ -22,7 +22,7 @@ Since this is your first week, we are only trying to get you up to speed and get
 
 ## Setup Instructions:
 
-1. (Windows only, not strictly required but recommended) [Enable Windows subsystems for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10): developing on Windows is not the easiest thing since it's usually missing tons of free tools/resources that available on linux/mac. But it's possible to install a lightweight Linux virtual machine to fill in the gap. There's other alternatives like [Cygwin](http://cygwin.com/) or [MingW](http://mingw-w64.org/doku.php)
+1. (Windows only, not strictly required but recommended) [Enable Windows subsystems for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10): developing on Windows is not the easiest thing since it's usually missing tons of free tools/resources that available on linux/mac. But it's possible to install a lightweight Linux virtual machine to fill in the gap. Make sure to enable CPU virtualization in your BIOS (SVM for AMD and VT-x for Intel). Additionally, make sure to enable Hyper-V in Windows Features (Search -> Windows Features -> Check the box beside "Hyper-V"). There's other alternatives like [Cygwin](http://cygwin.com/) or [MingW](http://mingw-w64.org/doku.php)
 
 2. Install Python 3.X: Python is the easiest language to get started. In this bootcamp we'll be using Python and Javascript as our main coding languages
 
